@@ -1,0 +1,7 @@
+.gf-2checkout-card .extra {
+	display: flex;
+}
+
+.gf-2checkout-card .extra span {
+	flex-basis: 50%;
+}

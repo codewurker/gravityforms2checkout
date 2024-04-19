@@ -1,0 +1,26 @@
+### 2.2.0 | 2024-04-18
+- Updated to use the SHA2/SHA3 hash algorithm instead of MD5 which will become unsupported by 2Checkout on 2024-05-15.
+- Fixed a deprecation notice when activating the add-on with PHP 8.1 or later.
+- Fixed an issue with how the credit card field displays within Conversational Forms.
+
+### 2.1 | 2022-07-18
+- Updated the notice that displays a message about reauthenticating with 2Checkout so that it links to the plugin settings page.
+- Fixed an issue with the card field styling.
+- Fixed an issue with the billing address incorrectly failing validation in some situations.
+- Fixed an issue where the minified js and css files were not used.
+- Fixed PHP 8 compatibility issues.
+
+
+### 2.0 | 2020-12-23
+- Added support for 2Checkout API version 6.0.
+- Added support for Gravity Forms 2.5.
+
+
+### 1.1 | 2020-05-06
+- Added translations for Hebrew, Hindi, Japanese, and Turkish.
+- Updated Javascript files to use minified versions.
+- Fixed an issue where the API credentials settings could show as valid when an authentication error is returned by the 2Checkout API.
+
+
+### 1.0 | 2018-12-17
+- Initial release.
